@@ -1,0 +1,81 @@
+.store-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .store-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .store-subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .store-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .store-item {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .store-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .store-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .center-logo {
+    background-color: #0f9d58; /* Green for Printify logo */
+    padding: 40px;
+  }
+  
+  .store-item:hover {
+    transform: translateY(-10px); /* Hover effect */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .store-grid {
+      grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+      gap: 20px;
+    }
+  
+    .store-item {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .store-title {
+      font-size: 28px;
+    }
+  
+    .store-subtitle {
+      font-size: 16px;
+    }
+  
+    .store-grid {
+      gap: 10px;
+    }
+  }
+  

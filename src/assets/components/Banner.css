@@ -1,0 +1,34 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Adjust padding as needed */
+    background-color: #f0f0f0; /* Replace with the actual background color */
+    border-radius: 10px; /* Adjust border radius for shape */
+  }
+  
+  .banner-text {
+    font-size: 20px;
+    color: #333; /* Replace with the actual text color */
+    margin-left: 20px; /* Adjust margin for text placement */
+  }
+  
+  .talk-to-sales-button {
+    padding: 10px 20px;
+    background-color: #009688; /* Replace with the actual button background color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px; /* Adjust margin for button position */
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .banner {
+      flex-direction: column;
+      align-items: center;
+    }
+    .banner-text {
+      text-align: center;
+    }
+  }

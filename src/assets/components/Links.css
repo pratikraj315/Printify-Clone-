@@ -1,0 +1,32 @@
+.footer-container {
+    background-color: white;
+    padding: 20px 40px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo .printify-logo {
+    height: 50px; /* Adjust according to your logo size */
+  }
+  
+  .social-media {
+    display: flex;
+    gap: 20px;
+   
+  }
+  
+  .social-icon {
+    width: 30px; /* Adjust the size of the icons */
+    height: 30px;
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+  
