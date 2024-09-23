@@ -269,7 +269,7 @@ const Navbar = () => {
       {/* Padding for the fixed navbar */}
       <div className="pt-16">
         {/* Content of the page goes here */}
-        <h1 className="text-2xl font-bold text-center">Welcome to Printify</h1>
+        
         {/* Add the rest of your content here */}
       </div>
     </>
